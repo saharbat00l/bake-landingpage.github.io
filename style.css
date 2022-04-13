@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,600;0,700;1,100;1,200&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.first{
+    background: url(pie.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding-bottom: 5em;
+}
+.header{
+    padding: 3em;
+}
+
+.logo{
+    color: white;
+    text-decoration: none;
+    font-weight:normal;
+    font-size: 1.5rem;
+}
+section{
+    margin: 0 1em;
+}
+h1{
+    font-size: 2.5rem;
+}
+h1 span{
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.5rem;
+}
+h1 span:hover{
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+section p{
+    font-weight: normal;
+    margin: 0 8em 3em;
+}
+.form{
+    background-color: rgba(255, 255, 255, 0.192);
+    margin: 2em -1em 0;
+    color: white;
+    text-transform: uppercase;
+    padding: 2em;
+    
+}
+label{
+    font-weight: bold;
+    display: block;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+input[type=text]{
+    background-color: rgba(255, 255, 255, 0.644) ;
+    border: none;
+    width: 20%;
+    padding: 1em;
+    border-radius: 2em;
+}
+input[type=button]{
+    background-color: black;
+    border: none;
+    color: white;
+    width: 20%;
+    padding: 1em;
+    border-radius: 2em;
+}
+input[type=button]:hover{
+    background-color: white;
+    color: black;  
+}
+section.second{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-template-areas: "left right";
+}
+img{
+    width: 100%;
+    grid-area: left;
+}
+.rightCol{
+    text-align: center;
+    margin: 0;
+    padding: 1em 0;
+    grid-area: right;
+}
+h2{
+    text-transform: uppercase;
+}
+p{
+    font-size: 1em;
+}
+ 
